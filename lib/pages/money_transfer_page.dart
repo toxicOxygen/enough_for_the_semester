@@ -53,7 +53,6 @@ class MoneyTransferPage extends StatelessWidget {
                     height: 15,
                   ),
                   MoneyTransferWidget(),
-
                   SizedBox(
                     height: 15,
                   ),
@@ -85,7 +84,7 @@ class MoneyTransferPage extends StatelessWidget {
                         uiProvider.setTransferOption(v);
                       },
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
